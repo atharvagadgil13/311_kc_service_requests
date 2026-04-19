@@ -1,0 +1,33 @@
+# === Data files (too large for GitHub) ===
+data/*.tsv
+data/*.csv
+data/*.xlsx
+*.tsv
+*.csv
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Alteryx ===
+*.yxdb
+*.log
+
+# === Tableau ===
+*.twbx
+*.tde
+*.hyper
+*.tdsx
+
+# === Power BI ===
+# Keep .pbix but ignore temp files
+*.pbix.tmp
+*.pbit
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
