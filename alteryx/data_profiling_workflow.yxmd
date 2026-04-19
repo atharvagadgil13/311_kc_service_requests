@@ -1,0 +1,599 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CASE ID" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="SOURCE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="DEPARTMENT" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="WORK GROUP" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="TYPE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="DETAIL" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CREATION DATE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CREATION TIME" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="STATUS" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="EXCEEDED EST TIMEFRAME" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CLOSED DATE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="DAYS TO CLOSE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="STREET ADDRESS" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="ZIP CODE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="NEIGHBORHOOD" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="COUNTY" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="POLICE DISTRICT" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="PARCEL ID NO" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CATEGORY1" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CATEGORY2" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CATEGORY3" size="254" source="File: C:\Users\Atharva\Desktop\DADABI Porject\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">CASE ID=True,SOURCE=True,DEPARTMENT=True,WORK GROUP=True,TYPE=True,DETAIL=True,CREATION DATE=True,CREATION TIME=True,STATUS=True,EXCEEDED EST TIMEFRAME=True,CLOSED DATE=True,DAYS TO CLOSE=True,STREET ADDRESS=True,ZIP CODE=True,NEIGHBORHOOD=True,COUNTY=True,POLICE DISTRICT=True,PARCEL ID NO=True,LATITUDE=True,LONGITUDE=True,CATEGORY1=True,CATEGORY2=True,CATEGORY3=True,FileName=False</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Atharva\AppData\Local\Temp\Alteryx\Engine_17372_40c667df6332419498db0e2a230d8add_\Engine_17372_ce616c1ba67a4955bdc74455a188cfd8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="210" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="STATUS" action="GroupBy" rename="STATUS" />
+            <SummarizeField field="STATUS" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Atharva\AppData\Local\Temp\Alteryx\Engine_17372_40c667df6332419498db0e2a230d8add_\Engine_17372_0d99b0d1af894d588ce8ff00ef83b7a6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="270" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="DEPARTMENT" action="GroupBy" rename="DEPARTMENT" />
+            <SummarizeField field="DEPARTMENT" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Atharva\AppData\Local\Temp\Alteryx\Engine_17372_40c667df6332419498db0e2a230d8add_\Engine_17372_9f9f4d497f674b72a1f5b94c874a35d1~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="282" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="CATEGORY1" action="GroupBy" rename="CATEGORY1" />
+            <SummarizeField field="CATEGORY1" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Atharva\AppData\Local\Temp\Alteryx\Engine_17372_40c667df6332419498db0e2a230d8add_\Engine_17372_efc4fae9fdb7456aab69f99217d48de5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="378" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="378" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CASE ID" selected="True" type="Int64" size="8" />
+            <SelectField field="SOURCE" selected="True" type="V_WString" size="100" />
+            <SelectField field="DEPARTMENT" selected="True" type="V_WString" size="200" />
+            <SelectField field="WORK GROUP" selected="True" type="V_WString" size="255" />
+            <SelectField field="TYPE" selected="True" type="V_WString" size="200" />
+            <SelectField field="DETAIL" selected="True" type="V_WString" size="255" />
+            <SelectField field="CREATION DATE" selected="True" type="Date" size="10" />
+            <SelectField field="CREATION TIME" selected="True" type="Time" size="8" />
+            <SelectField field="STATUS" selected="True" type="V_WString" size="50" />
+            <SelectField field="EXCEEDED EST TIMEFRAME" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="CLOSED DATE" selected="True" type="Date" size="10" />
+            <SelectField field="DAYS TO CLOSE" selected="True" type="Double" size="8" />
+            <SelectField field="STREET ADDRESS" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="ZIP CODE" selected="True" type="Double" size="8" />
+            <SelectField field="NEIGHBORHOOD" selected="True" type="V_WString" size="100" />
+            <SelectField field="COUNTY" selected="True" type="V_WString" size="100" />
+            <SelectField field="POLICE DISTRICT" selected="True" type="V_WString" size="50" />
+            <SelectField field="PARCEL ID NO" selected="True" type="Double" size="8" />
+            <SelectField field="LATITUDE" selected="True" type="Double" size="8" />
+            <SelectField field="LONGITUDE" selected="True" type="Double" size="8" />
+            <SelectField field="CATEGORY1" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="CATEGORY2" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="CATEGORY3" selected="True" type="V_WString" size="2147483647" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="REGEX_Replace([FileName], &quot;.*[\\/]&quot;, &quot;&quot;)" field="File_Name" size="255" type="V_WString" enabled="true" />
+            <FormulaField expression="GetEnvironmentVariable(&quot;USERNAME&quot;)" field="User_Name" size="255" type="V_WString" enabled="true" />
+            <FormulaField expression="DateTimeNow()" field="Load_Date" size="19" type="DateTime" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>File_Name = REGEX_Replace([FileName], ".*[\\/]", "")
+User_Name = GetEnvironmentV...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="114" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Atharva\AppData\Local\Temp\Alteryx\Engine_17372_40c667df6332419498db0e2a230d8add_\Engine_17372_dee01a924b35482f95456b07ee9fa5b6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="162" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([CREATION DATE], &quot;%m/%d/%Y&quot;)" field="CREATION DATE" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="DateTimeParse([CREATION TIME], &quot;%I:%M %p&quot;)" field="CREATION TIME" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="DateTimeParse([CLOSED DATE], &quot;%m/%d/%Y&quot;)" field="CLOSED DATE" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CREATION DATE = DateTimeParse([CREATION DATE], "%m/%d/%Y")
+CREATION TIME = DateT...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Table>Atharva311Data</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId" DcmTitle="Microsoft SQL Server ODBC DSN-less" DcmSchemaId="database-odbc-mssql-winauth">6df81434-1f3e-45ab-a8b4-de221267be12</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table=Atharva311Data</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Atharva\AppData\Local\Temp\Alteryx\Engine_17372_40c667df6332419498db0e2a230d8add_\Engine_17372_222049b985fe45ccb9d0200931ccf546~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>IndividualProject_AtharvaGadgil</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2d15184d-c8dd-4439-929a-0d7e01ff3a1d" />
+      <Telemetry>
+        <PreviousWorkflowId value="cff19d95-5a9f-49c6-87fa-f0d9145f259f" />
+        <OriginWorkflowId value="cff19d95-5a9f-49c6-87fa-f0d9145f259f" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
